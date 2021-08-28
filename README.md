@@ -9,4 +9,4 @@ This is designed layout where I've trained making adaptive landings.
 - HTML5
 - SCSS
 
-This site was built using GitHub Pages [Link](https://coyjiv.github.io/Test-Landing/).
+This site was built using GitHub Pages. Here is [link](https://coyjiv.github.io/Test-Landing/).
