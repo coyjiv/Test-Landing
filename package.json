@@ -1,14 +1,14 @@
 {
-   "name": "classwork-01",
+   "name": "Test Adaptive layout",
    "version": "1.0.0",
-   "description": "",
+   "description": "Test Adaptive layout",
    "main": "index.js",
    "scripts": {
       "build": "gulp build",
       "start": "gulp",
       "test": "echo \"Error: no test specified\" && exit 1"
    },
-   "author": "",
+   "author": "Daniil Shcherbakov",
    "license": "ISC",
    "devDependencies": {
       "browser-sync": "^2.26.14",
