@@ -8,3 +8,5 @@ This is designed layout where I've trained making adaptive landings.
 - Node.JS
 - HTML5
 - SCSS
+
+This site was built using GitHub Pages [Link](https://coyjiv.github.io/Test-Landing/).
