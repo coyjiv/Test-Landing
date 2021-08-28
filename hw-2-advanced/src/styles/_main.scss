@@ -1,0 +1,82 @@
+.page__body {
+   margin: 0;
+}
+.page__header {
+   background-color: black;
+   padding-top: 26px;
+}
+.container {
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 292px;
+   // @include containerWidth(1200px, 992px);
+   // @include containerWidth(1920px, 1400px);
+}
+.nav {
+   display: flex;
+   justify-content: space-between;
+}
+.nav__toggle {
+   background-color: transparent;
+   color: #fff;
+   border: none;
+   width: 30px;
+   height: 30px;
+   font-size: 24px;
+   &::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-image: url(../images/menu-icon.png);
+   }
+}
+.nav__toggle--open {
+   position: relative;
+   z-index: 2;
+   &::after {
+      background-image: url(../images/close.png);
+   }
+}
+.nav__content-wrapper {
+   display: none;
+}
+.nav__content-wrapper--open {
+   display: block;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #112537;
+}
+.menu {
+   @extend %list-reset;
+   padding-top: 120px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.menu__item {
+   margin-bottom: 20px;
+}
+.menu__link {
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 14.291px;
+   font-family: "Raleway", sans-serif;
+   color: #fff;
+   font-weight: bold;
+   line-height: 2.1;
+   text-shadow: 0px 0px 5.16px rgba(0, 1, 6, 0.05);
+   transition: color 0.3s ease-in-out;
+   &:hover {
+      color: #f8a25a;
+   }
+}
+.nav__soc {
+   margin-top: 40px;
+   align-items: center;
+   display: flex;
+   justify-content: space-evenly;
+}
